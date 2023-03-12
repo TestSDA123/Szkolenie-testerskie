@@ -7,7 +7,7 @@
 	"item": [
 		{
 			"name": "New Request",
-			"_postman_id": "4211b96e-c44d-43e0-9571-675da71b749d",
+			"id": "4211b96e-c44d-43e0-9571-675da71b749d",
 			"protocolProfileBehavior": {
 				"disableBodyPruning": true
 			},
@@ -29,14 +29,14 @@
 		},
 		{
 			"name": "New Request",
-			"_postman_id": "9b2d9f30-5970-47a9-b2fb-92ca3deb8132",
+			"id": "9b2d9f30-5970-47a9-b2fb-92ca3deb8132",
 			"protocolProfileBehavior": {
 				"disableBodyPruning": true
 			},
 			"request": {
 				"method": "GET",
 				"header": [],
-				"url": "https://restful-booker.herokuapp.com/booking"
+				"url": "https://restful-booker.herokuapp.com/booking/454"
 			},
 			"response": []
 		}
