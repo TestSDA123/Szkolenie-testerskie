@@ -107,14 +107,24 @@
 			"response": []
 		},
 		{
-			"name": "New Request",
+			"name": "testowy request",
 			"id": "b98d6213-c814-4a25-89f1-cd723a6cfd9e",
 			"protocolProfileBehavior": {
 				"disableBodyPruning": true
 			},
 			"request": {
-				"method": "GET",
-				"header": []
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"firstname\": \"raz\",\n    \"lastname\": \"dwa\",\n    \"totalprice\": 19000000,\n    \"depositpaid\": true,\n    \"bookingdates\": {\n        \"checkin\": \"2018-01-01\",\n        \"checkout\": \"2019-01-01\"\n    },\n    \"additionalneeds\": \"Breakfast\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "https://restful-booker.herokuapp.com/booking/"
 			},
 			"response": []
 		}
